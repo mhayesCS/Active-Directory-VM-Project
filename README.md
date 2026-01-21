@@ -74,7 +74,7 @@ This PowerShell script automates the creation of user accounts in an **Active Di
 - Forces users to change password at first login  
 - Places users into a chosen OU  
 
-![Power Shell ISE Script](images/Powershell%20script%202.png)
+![Power Shell ISE Script](images/Powellshell%20script%202.png)
 
 
 ---
