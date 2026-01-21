@@ -30,7 +30,7 @@ The lab simulates a small enterprise environment with a **Windows Server 2019 Do
 ### 1. Configure Server 2019
 - Installed Windows Server 2019 in VirtualBox
 - Added **2 NICs**: External (home router) + Internal (static IP: `172.16.0.1`)
-- Renamed server to `DC01`
+- Renamed server to `DC`
 
 ### 2. Install Active Directory & DNS
 - Installed **AD DS** role
