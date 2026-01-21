@@ -5,7 +5,7 @@ The lab simulates a small enterprise environment with a **Windows Server 2019 Do
 
 ---
 
-## 📖 Lab Overview
+## Lab Overview
 - **Domain Name**: mikailsdomain.com (previously was mhayescs.com and I changed it just because)
 - **Domain Controller**: Windows Server 2019 (DC)  
 - **Client**: Windows 10 (CLIENT1)  
@@ -13,7 +13,7 @@ The lab simulates a small enterprise environment with a **Windows Server 2019 Do
 
 ---
 
-## 🗂️ Lab Design
+## Lab Design
 
 ![Lab Diagram](images/AD%20Lab%20Diagram.png)
 
@@ -25,7 +25,7 @@ The lab simulates a small enterprise environment with a **Windows Server 2019 Do
 
 ---
 
-## ⚙️ Setup Steps
+## Setup Steps
 
 ### 1. Configure Server 2019
 - Installed Windows Server 2019 in VirtualBox
@@ -55,18 +55,18 @@ The lab simulates a small enterprise environment with a **Windows Server 2019 Do
 
 ![ADUC](images/DHCP_client.png)
 
-### 🌐 RAS/NAT Configuration
+### RAS/NAT Configuration
 To allow internal domain clients to access the internet, RRAS was configured on the Domain Controller using NAT.  
 The server has two network interfaces: one external (home LAN) and one internal (lab network).  
 RRAS translates traffic from the internal network to the external network, allowing clients to browse the web securely.
 
 ![RAS/NAT Set Up](images/RAS_NAT%20setup.png)
 
-## 👥 PowerShell Script – Bulk AD User Generator
+## PowerShell Script – Bulk AD User Generator
 
 This PowerShell script automates the creation of user accounts in an **Active Directory homelab** environment. It generates realistic test users and places them into a specified Organizational Unit (OU), making it easy to simulate a real enterprise domain.
 
-### 🔧 Features
+### Features
 - Automatically creates multiple domain users  
 - Randomizes first and last names  
 - Generates unique usernames  
@@ -79,13 +79,13 @@ This PowerShell script automates the creation of user accounts in an **Active Di
 
 ---
 
-- ## 🔍 Lab Validation & Client Connectivity
+- ## Lab Validation & Client Connectivity
 
 This section demonstrates successful domain integration, DHCP assignment, and internet access from the internal client in the Active Directory homelab.
 
 ---
 
-### 📸 DHCP Lease Assignment
+### DHCP Lease Assignment
 
 The image below shows the DHCP server issuing an IP address to the domain-joined client machine.  
 The client (`CLIENT1.mikailsdomain.com`) received an address from the defined scope `172.16.0.100 – 200`.
@@ -96,7 +96,7 @@ The client (`CLIENT1.mikailsdomain.com`) received an address from the defined sc
 
 ---
 
-### 📸 Domain Login Verification
+### Domain Login Verification
 
 This screenshot shows the client logged in with a **domain user account**, verified using the `whoami` command.
 
@@ -107,7 +107,7 @@ This screenshot shows the client logged in with a **domain user account**, verif
 
 ---
 
-### 📸 Network & Internet Connectivity Test
+### Network & Internet Connectivity Test
 
 The image below shows:
 - The client receiving a valid IP configuration
@@ -123,7 +123,7 @@ The image below shows:
 
 ---
 
-### ✅ Summary
+### Summary
 
 These validations prove that:
 - Active Directory is properly configured
@@ -133,10 +133,9 @@ These validations prove that:
 
 This mirrors a real-world enterprise AD environment in a controlled homelab.
 
-
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 - Add Group Policies for security baselines
 - Create multiple OUs & user groups
 - Add second Domain Controller for redundancy
@@ -144,6 +143,6 @@ This mirrors a real-world enterprise AD environment in a controlled homelab.
 
 ---
 
-## 📌 Author
+## Author
 **Mikail Hayes**
 2025 CS Graduate | Cybersecurity Professional | Homelab Builder
