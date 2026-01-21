@@ -47,7 +47,7 @@ The lab simulates a small enterprise environment with a **Windows Server 2019 Do
 - Authorized DHCP in AD
 
 📸 *DHCP Server Options*  
-![DHCP Configuration](images/dhcp.png)
+![DHCP Configuration](images/DHCP%20setup.png)
 
 ### 4. Join Windows 10 Client
 - Installed Windows 10 in VirtualBox
