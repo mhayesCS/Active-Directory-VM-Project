@@ -55,7 +55,27 @@ The lab simulates a small enterprise environment with a **Windows Server 2019 Do
 
 ![ADUC](images/DHCP_client.png)
 
+### 🌐 RAS/NAT Configuration
+To allow internal domain clients to access the internet, RRAS was configured on the Domain Controller using NAT.  
+The server has two network interfaces: one external (home LAN) and one internal (lab network).  
+RRAS translates traffic from the internal network to the external network, allowing clients to browse the web securely.
+
 ![RAS/NAT Set Up](images/RAS_NAT%20setup.png)
+
+## 👥 PowerShell Script – Bulk AD User Generator
+
+This PowerShell script automates the creation of user accounts in an **Active Directory homelab** environment. It generates realistic test users and places them into a specified Organizational Unit (OU), making it easy to simulate a real enterprise domain.
+
+### 🔧 Features
+- Automatically creates multiple domain users  
+- Randomizes first and last names  
+- Generates unique usernames  
+- Sets a default password  
+- Forces users to change password at first login  
+- Places users into a chosen OU  
+
+![Power Shell ISE Script](images/Powershell%20script%202.png)
+
 
 ---
 
