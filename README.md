@@ -79,10 +79,60 @@ This PowerShell script automates the creation of user accounts in an **Active Di
 
 ---
 
-## ✅ Verification
-- Client successfully joined domain
-- DNS & DHCP functioning
-- Group Policies applied correctly
+- ## 🔍 Lab Validation & Client Connectivity
+
+This section demonstrates successful domain integration, DHCP assignment, and internet access from the internal client in the Active Directory homelab.
+
+---
+
+### 📸 DHCP Lease Assignment
+
+The image below shows the DHCP server issuing an IP address to the domain-joined client machine.  
+The client (`CLIENT1.mikailsdomain.com`) received an address from the defined scope `172.16.0.100 – 200`.
+
+![DHCP Lease](images/Client%20address%20lease.png)
+
+✔ Confirms DHCP is active and properly serving internal clients.
+
+---
+
+### 📸 Domain Login Verification
+
+This screenshot shows the client logged in with a **domain user account**, verified using the `whoami` command.
+
+
+![Domain Login](images/Client%20domain%20setup%20ex.png)
+
+✔ Confirms the client is joined to the domain and authenticating via Active Directory.
+
+---
+
+### 📸 Network & Internet Connectivity Test
+
+The image below shows:
+- The client receiving a valid IP configuration
+- Default gateway set to the Domain Controller (`172.16.0.1`)
+- Successful ping to `google.com`
+
+![Client Network Test](images/Client%20intranet%20setup.png)
+
+✔ Confirms:
+- DNS resolution is working  
+- NAT via RRAS is functioning  
+- Internal clients can access the internet securely
+
+---
+
+### ✅ Summary
+
+These validations prove that:
+- Active Directory is properly configured
+- DHCP is assigning IPs
+- Clients are joining the domain
+- RRAS/NAT is providing outbound internet access
+
+This mirrors a real-world enterprise AD environment in a controlled homelab.
+
 
 ---
 
