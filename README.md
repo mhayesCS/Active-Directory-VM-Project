@@ -55,7 +55,7 @@ The lab simulates a small enterprise environment with a **Windows Server 2019 Do
 
 ![ADUC](images/DHCP_client.png)
 
-![RAS/NAT Set Up](images/RAS_NAS%20setup.png)
+![RAS/NAT Set Up](images/RAS_NAT%20setup.png)
 
 ---
 
