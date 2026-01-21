@@ -6,7 +6,7 @@ The lab simulates a small enterprise environment with a **Windows Server 2019 Do
 ---
 
 ## 📖 Lab Overview
-- **Domain Name**: mikailsdomain.com  
+- **Domain Name**: mikailsdomain.com (previously was mhayescs.com and I changed it just because)
 - **Domain Controller**: Windows Server 2019 (DC01)  
 - **Client**: Windows 10 (CLIENT1)  
 - **Roles Installed**: Active Directory, DNS, DHCP, Remote Access  
