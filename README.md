@@ -15,7 +15,7 @@ The lab simulates a small enterprise environment with a **Windows Server 2019 Do
 
 ## 🗂️ Lab Design
 
-![Lab Diagram](images/AD Lab Diagram.png)
+![Lab Diagram](images/AD20%Lab20%Diagram.png)
 
 **Network Setup**:
 - Domain Controller (Internal NIC) → `172.16.0.1`
