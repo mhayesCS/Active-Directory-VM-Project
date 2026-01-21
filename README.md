@@ -36,8 +36,7 @@ The lab simulates a small enterprise environment with a **Windows Server 2019 Do
 - Installed **AD DS** role
 - Promoted to Domain Controller
 - Created forest/domain: **mikailsdomain.com**
-
-📸 *Server Manager (AD DS installed)*  
+ 
 ![Server Dashboard](images/serverdashboard.png)
 
 ### 3. Configure DHCP
@@ -46,7 +45,6 @@ The lab simulates a small enterprise environment with a **Windows Server 2019 Do
 - Set default gateway: `172.16.0.1`
 - Authorized DHCP in AD
 
-📸 *DHCP Server Options*  
 ![DHCP Configuration](images/DHCP%20setup.png)
 
 ### 4. Join Windows 10 Client
@@ -55,8 +53,9 @@ The lab simulates a small enterprise environment with a **Windows Server 2019 Do
 - Client pulled IP from DC DHCP
 - Joined domain: **mikailsdomain.com**
 
-📸 *Active Directory Users & Computers showing CLIENT1*  
 ![ADUC](images/DHCP_client.png)
+
+![RAS/NAT Set Up](images/RAS_NAS%20setup.png)
 
 ---
 
