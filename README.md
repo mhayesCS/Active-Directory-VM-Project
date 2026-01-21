@@ -76,5 +76,5 @@ The lab simulates a small enterprise environment with a **Windows Server 2019 Do
 ---
 
 ## 📌 Author
-**Mikail Hayes** 
-CS Graduate | Cybersecurity Professional | Homelab Builder
+**Mikail Hayes**
+2025 CS Graduate | Cybersecurity Professional | Homelab Builder
