@@ -38,7 +38,7 @@ The lab simulates a small enterprise environment with a **Windows Server 2019 Do
 - Created forest/domain: **mikailsdomain.com**
 
 📸 *Server Manager (AD DS installed)*  
-![Server Dashboard](images/.png)
+![Server Dashboard](images/serverdashboard.png)
 
 ### 3. Configure DHCP
 - Installed DHCP role
