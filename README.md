@@ -56,7 +56,7 @@ The lab simulates a small enterprise environment with a **Windows Server 2019 Do
 - Joined domain: **mikailsdomain.com**
 
 📸 *Active Directory Users & Computers showing CLIENT1*  
-![ADUC](images/aduc.png)
+![ADUC](images/DHCP_client.png)
 
 ---
 
